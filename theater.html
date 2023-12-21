@@ -1,0 +1,38 @@
+</doctype html>
+<html>
+<head>
+      <title>Theater</title>
+	  <style>
+	  body{
+	  background-color:lightyellow;
+	       }
+	  </style>	   
+</head>
+<body>
+<h1>Movie information</h1>
+<h2>Movie select</h2>
+<select id="movieselect">
+<option value="OMG">OMG 2</option>
+<option value="Gader">Gader 2</option>
+<option value="Jawan">Jawan</option>
+</select>
+
+<h2>select theater</h2>
+<select id="theaterselect">	
+<option value="pvr">PVR</option>
+<option value="citygold">CityGold</option>
+</select>
+
+<h2>select time</h2>
+<input type="radio" name="time" value="morning">morning
+<input type="radio" name="time" value="afternoon">afternoon
+<input type="radio" name="time" value="evening">evening
+
+<h2>select screen number</h2>
+<input type="text" name="screennumber" placeholder="screennumber">
+
+<h2>Theater information</h2>
+<p id="theaterinfo"></p>
+<button onclick="submitData()">Submit</button>
+</body>
+</html>					  
